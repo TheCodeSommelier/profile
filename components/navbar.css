@@ -1,0 +1,31 @@
+.navbar {
+  display: flex;
+  height: 40px;
+  width: 100%;
+  position: static;
+}
+
+.navbar a {
+  color: rgb(255, 255, 255);
+  padding: 15px 25px;
+  background-color: rgb(155, 106, 246);
+  border: 0.5px solid rgb(75, 75, 75);
+  border-right: 0;
+  display: flex;
+  align-items: center;
+}
+
+.navbar a:hover {
+  transition: 0.4s ease-in-out;
+  background-color: rgb(67, 219, 130);
+  box-shadow: 10px 10px 0 rgba(0, 0, 0, 1.0);
+  transition: 0.4s ease-in-out;
+}
+
+.navbar li {
+  list-style-type: none;
+}
+
+.navbar ul {
+  display: flex;
+}

@@ -1,0 +1,20 @@
+#banner {
+  height: 700px;
+  width: 100%;
+}
+
+#banner h1 {
+  color:white;
+  font-size: 60px;
+  margin-bottom: 30px;
+}
+
+#banner p {
+  color: rgb(176, 176, 176);
+  font-size: 20px;
+}
+
+#banner .container div {
+  position: relative;
+  top: 200px;
+}
