@@ -1,0 +1,25 @@
+/* gif grid */
+#gif-grid h2 {
+  margin: 20px auto;
+}
+
+.gif-grid-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 16px;
+  background-color: rgba(255, 255, 255, 1.0);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  justify-items: center;
+}
+
+.gif-grid-card {
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.gif-grid-card img {
+  width: 200px;
+}
